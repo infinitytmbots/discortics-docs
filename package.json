@@ -1,0 +1,23 @@
+{
+  "name": "Discortics_Docs",
+  "version": "0.0.1",
+  "description": "The complete documentation of Discortics - Your Prime alternative to bots for a Better Discord",
+  "main": "index.js",
+  "authors": {
+    "name": "Joshua Varghese",
+    "email": "infinitymist01@gmail.com"
+  },
+  "repository": "https://github.com/infinitytmbots/discortics_docs.git/Discortics Docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.0.1"
+  }
+}
