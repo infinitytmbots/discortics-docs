@@ -14,6 +14,10 @@ You require `MANAGE SERVER` permission to use this command. You can use the `PER
 Dashboard requires you to have `ADMINISTRATOR` permission in order to configure settings.
 :::
 
+:::warning IP Logging
+By enabling, we're granted the permission to store the IP address of users that verify through Discortics. Each ip is stored in a highly secure database whose access is restricted to the owner of Discortics.
+:::
+
 ## Enable/Disable
 
   | Command | Description |
