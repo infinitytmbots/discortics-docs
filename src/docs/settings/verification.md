@@ -33,5 +33,7 @@ You must setup an action that will happen when a user's account age is not old e
 
   | Command | Description |
   |--------|------------|
-  |`youngest` | Top 15 youngest accounts in Discord that is on your server.|
-  |`oldest` | Top 15 oldest accounts in Discord that is on your server.|
+  |`v-info` | Get information about a user who has verified in your server.|
+  |`v-manual` | Manually verify a user, which means they can receive the member role without verifying|
+  |`oldest` | Lists top 15 oldest accounts in Discord that is in your server.|
+  |`youngest` | Lists top 15 youngest accounts in Discord that is on your server.|
