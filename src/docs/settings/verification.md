@@ -3,7 +3,7 @@ id: verification
 title: Verification
 hide_title: true
 sidebar_label: verification
-description: Setup verification for your server
+description: Setup verification in server
 ---
 
 # Verification System
