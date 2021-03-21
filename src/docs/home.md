@@ -18,8 +18,8 @@ Dashboard requires you to have `ADMINISTRATOR` permission in order to configure 
 
 ## Why does it say ERROR 403: Authorisation Required?
 By default, most of the browsers disable `cross-site`/`third-party` cookies. Unfortunately, we rely on them (won't be an issue once we hire a developer to rewrite the dashboard in React.js).<br>
-Here are the solutions:
 
+Here are the solutions:
 ### PC
 #### Chrome
 1. Select the Chrome menu icon
