@@ -73,6 +73,13 @@ module.exports = {
             'settings/application',
             'settings/verification',
           ]
+        },
+        {
+          title: 'Configurations',
+          collapsable: true,
+          children: [
+            'configuration/autorole'
+          ]
         }
       ],
     }

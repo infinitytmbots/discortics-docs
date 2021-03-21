@@ -28,8 +28,8 @@ When a user joins your server, they are dmed the link that has to be clicked in-
   |`verify disable` | Disable verification.|
 
 ## Setting up Verification
-Make a role that has access to talk in channels, make sure the `@everyone` role does not have perrmission to veiw or speak in the channels unless you want.<br>
-Use `verify add [role]`, now once the user has verify they will automatically recive this role and be able to chat.
+Make a role that has access to talk in channels, make sure the `@everyone` role does not have perrmission to view or speak in the channels unless you want.<br>
+Use `verify add [role]`, now once the user has been verified they will automatically receive the role.
 
 ## Alt Kicks/Bans
 You'll never have to worry about fake invites and alts joining giveaway etc. By using `verify age [time]` the user's account will at least have to be old as the time you entered to stay in the server.<br>
@@ -41,5 +41,5 @@ You must setup an action that will happen when a user's account age is not old e
   |--------|------------|
   |`v-info` | Get information about a user who has verified in your server.|
   |`v-manual` | Manually verify a user, which means they can receive the member role without verifying|
-  |`oldest` | Lists top 15 oldest accounts in Discord that is in your server.|
-  |`youngest` | Lists top 15 youngest accounts in Discord that is on your server.|
+  |`oldest` | Lists top 15 oldest accounts present in your Discord server.|
+  |`youngest` | Lists top 15 youngest accounts present in your Discord server.|

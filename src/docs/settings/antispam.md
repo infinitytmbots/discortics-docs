@@ -37,7 +37,7 @@ To view current configurations, type `;antispam` in any of the channels the bot 
 | Config | Description | Usage | Default |
 |--------|-------------|-------|---------|
 |`warn`| Warn the user | `warn [enable/disable]` | Enabled|
-|`mute`| Mute the user | `mute [enable/disable]` | Enabled|
+|`mute`| Mute the user | `mute [enable/disable]` | Disabled|
 |`spam-rate`| The message rate which will define a spam | `spam-rate messages/time` | 5 msgs/5s|
 |`duplicate-rate`| The number of duplicate message which should result in a mute | `duplicate-rate messages/time` | 3 msgs/30s|
 |`mute-spam-warns`| The number of warns which should result in a mute | `mute-spam-warns warns/time` | 3 warns/5m|
@@ -54,3 +54,7 @@ msgs - Messages
 ```
 
 
+## FAQ
+### Why doesn't the bot mute the spammer?
+Muting system is disabled by default. You need to enable it via `antispam mute enable`. Additionally, if you don't have the mute role created/set, you need to set/create using the `muted-role [set/create] (role)` command. Also make sure that the mute-role exists and is below the highest role of the bot.<br>
+**Note:** Users with `ADMINISTRATOR` permission has bypass since muting has no additional effects on them.

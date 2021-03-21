@@ -14,14 +14,14 @@ You require `MANAGE SERVER` permission to use this command. You can use the `PER
 Dashboard requires you to have `ADMINISTRATOR` permission in order to configure settings.
 :::
 
-Discortics Application System is easy to configure & use. You can have upto 50 questions and collect infinite applications. Here is how to setup applications in your server.
+Discortics Application System is easy to configure & use. You can have upto 50 questions and collect infinite applications. Here is how to setup applications in your server. Discortics also supports MCQ type questions.
 
 ## Questions
 In order to add the questions, 
 -  Log into the [**Dashboard**](https://discortics.ga)
 -  Choose Your Server
 -  Select Applications from the Left-side Menu
--  Click on `Add Questions` button and enter your question. Repeat the process until all questions are ready.
+-  Click on `Add Questions`/`Add MCQ` button and enter your question. Repeat the process until all questions are ready.
 -  To save the questions, click on `Save Current Settings` and you are ready!
 
 ## Open/Close
@@ -48,6 +48,11 @@ To view the applications submitted, you have two options,
   You can also view all the applications using the `review` command. The command alone shows all the applications along with their ID.<br>
   In order to view a particular application, use `review [ID]`.
 
+## Acceptance/Denial Role Management
+While/After collecting the applications, you can award/remove acceptance/denial role(s).<br>
+When you accept/deny, the applicant receives/loses the role set.<br>
+Configuration is done via the [**Dashboard**](https://discortics.ga)
+
 ## Acceptance/Denial DMs
 While/After collecting the applications, you can accept/deny them.<br>
 When you accept/deny, the applicant is send a DM of their application status.<br>
@@ -55,10 +60,10 @@ When you accept/deny, the applicant is send a DM of their application status.<br
 
 | Command | Description |
 |--------|------------|
-|`accept [ID]` | Accepts the Application/User ID |
-|`accept all` | Accepts all Applications.|
-|`deny [ID]` | Denies the Application/User ID |
-|`deny all` | Denies all Applications.|
+|`accept [ID] (custom dm response)` | Accepts the Application/User ID |
+|`accept all (custom dm response)` | Accepts all Applications.|
+|`deny [ID] (custom dm response)` | Denies the Application/User ID |
+|`deny all (custom dm response)` | Denies all Applications.|
 
 ## Deleting Applications
 You need to clear all the applications before you reopen applications again for the usersto be able to apply again.<br>
