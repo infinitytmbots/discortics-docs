@@ -71,6 +71,7 @@ module.exports = {
             'settings/antispam',
             'settings/welcome',
             'settings/application',
+            'settings/verification',
           ]
         }
       ],
