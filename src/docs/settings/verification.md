@@ -10,8 +10,7 @@ description: Setup verification in your server.
 Setup verification for your server.
 
 :::warning Permissions Requirement
-You require `MANAGE SERVER` permission to use this command. You can use the `PERMISSION` command in order to grant/deny privilege to any user/role to use this command.<br>
-Dashboard requires you to have `ADMINISTRATOR` permission in order to configure settings.
+You require `MANAGE SERVER` permission to use this command. You can use the `PERMISSION` command in order to grant/deny privilege to any user/role to use this command.
 :::
 
 :::warning IP Logging
@@ -19,7 +18,7 @@ By enabling, we're granted the permission to store the IP address of users that 
 :::
 
 # How does this work?
-When a user joins your server, they are dmed the link they will have to click in-order to verify their account. The link directs to the verification section in our dashboard which will further analyze the user.
+When a user joins your server, they are dmed the link that has to be clicked in-order to verify their account. The link directs to the verification section in our dashboard which will further analyze the user.
 
 ## Enable/Disable
 
