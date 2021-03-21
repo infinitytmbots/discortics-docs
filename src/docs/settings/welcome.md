@@ -48,5 +48,9 @@ The `;welcome message` command will list all the below provided variables in the
 |`[server:name]`| Show the Server Name
 |`[server:members]`| Server Member Count
 
+## FAQ
+### Why aren't the welcome messages sent?
+The bot needs sufficient permissions to send messages in the welcome channel. DM messages becomes impossible only if the user blocks external DMs. 
+
 
 
