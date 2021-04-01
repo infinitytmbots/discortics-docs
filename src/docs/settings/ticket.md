@@ -44,6 +44,7 @@ You can use the default message by replying `none`.
   | Command | Description |
   |--------|------------|
   |`tclaim` | The ticket name will be changed to `claim-ticket-number` when a ticket is claimed it means that someone will take care of the member or customer.|
+  |`tclose` | Close the ticket you can also react to the lock emoji, to reopen react with unlock emoji or delete by reacting the trash emoji.|
   |`tadd` | Add a member or customer to the ticket.|
   |`tremove` | Remove a member or customer from the ticket.|
   |`tmove` | Move the ticket to another category.|
