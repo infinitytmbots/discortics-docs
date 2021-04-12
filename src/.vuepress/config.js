@@ -72,6 +72,7 @@ module.exports = {
             'settings/welcome',
             'settings/application',
             'settings/verification',
+            'settings/ticket'
           ]
         },
         {
