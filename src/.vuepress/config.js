@@ -79,7 +79,8 @@ module.exports = {
           title: 'Configurations',
           collapsable: true,
           children: [
-            'configuration/autorole'
+            'configuration/autorole',
+            'configuration/permissions'
           ]
         }
       ],
